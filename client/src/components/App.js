@@ -9,8 +9,8 @@ class App extends Component {
     return (
       <div>
         <Row>
-      <Col span={12}><h1>col-12</h1></Col>
-      <Col span={12}>col-12</Col>
+      <Col span={16}>Project side</Col>
+      <Col span={8}>Login in side</Col>
         </Row>
         </div>
     );
