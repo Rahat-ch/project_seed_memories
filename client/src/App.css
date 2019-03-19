@@ -9,29 +9,50 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Gilroy-Light'
+  height: 100%
 }
 
 h1 {
   color: purple;
+  font-family: 'Gilroy-Bold'
 }
 
-/* this style sheet is connected */
+/* --------------------
+Left & Right Splash Styles
+-------------------- */
 
 .splashLeft{
   background-color: #E6F1C9;;
-  height:100vh;
+  height:150vh;
   color: #470843;
+  padding: 100px;
 
 }
 .splashRight{
   background-color: white;
-  height:100vh;
+  height:150vh;
+  text-align: center;
+  padding: 100px;
+}
+
+/* --------------------
+Left Splash Styling/ Columns
+-------------------- */
+#callToAction{
+  /* position:relative;
+  top: 50px;
+  width: 100px; */
   text-align: center;
 }
 
+#cardSpace{
+  position:relative;
+  top: 20px;
+}
+
+/* --------------------
+Login Buttons
+-------------------- */
 #loginBtn,#githBtn{
   margin: 0 auto;
   text-align: center;
@@ -58,6 +79,9 @@ h1 {
   top: 300px;
 }
 
+/* --------------------
+Logo
+-------------------- */
 #logo{
   position:relative;
   width: 75%;
@@ -69,13 +93,3 @@ h1 {
   top: -180px;
 }
 
-#callToAction{
-  position:relative;
-  top: 50px;
-  width: 100px;
-}
-
-#cardSpace{
-  position:relative;
-  top:200px;
-}
