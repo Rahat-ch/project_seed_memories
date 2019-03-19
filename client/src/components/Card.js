@@ -10,7 +10,7 @@ render(){
     className = "hvr-shadow"  
     style={{ width: 300 }}
     cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />}
-    actions={[<Icon type="github" />]}
+    actions={[<Icon type="github"/>]}
   >
     <Meta
       avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
