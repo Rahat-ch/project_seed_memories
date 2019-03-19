@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "antd/dist/antd.css";
 import { Row, Col } from "antd";
 import "../index.css";
+import "../../node_modules/hover.css/css/hover.css"
 import "../App.css";
-
 import Buttons from "./Button";
 import Cards from "./Card";
 import { runInNewContext } from "vm";
@@ -15,7 +15,7 @@ class App extends React.Component {
           <Col className="splashLeft" span={16}>
             <span id="callToAction">
             <Row>
-              <h1>Get out of the tutorial hole and start GROWING your skills in Project Seed!</h1>
+              <h1 >Get out of the tutorial hole and start GROWING your skills in Project Seed!</h1>
               <h1>Project Seed is an online community for new developers who want to start a team, 
               have an exciting project idea or want to work on an existing application.</h1>
               </Row>
