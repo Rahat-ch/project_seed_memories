@@ -65,33 +65,31 @@ class App extends Component {
   render() {
     return (
       <ApolloProvider client={client}>
-        
-            <UserAvatar
-              style={{
-                transform: `scale(${
-                  this.state.status === STATUS.AUTHENTICATED ? "1" : "0"
-                })`
-              }}
-            />
-            <a
-              style={{
-                display:
-                  this.state.status === STATUS.INITIAL ? "inline" : "none"
-              }}
-              href={`https://github.com/login/oauth/authorize?client_id=${CLIENT_ID}&scope=user&redirect_uri=${REDIRECT_URI}`}
-            >
-              Login
-            </a>
-          <Loading
-            status={this.state.status}
-            callback={() => {
-              if (this.props.status !== STATUS.AUTHENTICATED) {
-                this.setState({
-                  status: STATUS.AUTHENTICATED
-                });
-              }
-            }}
-          />
+        <UserAvatar
+          style={{
+            transform: `scale(${
+              this.state.status === STATUS.AUTHENTICATED ? "1" : "0"
+            })`
+          }}
+        />
+        <a
+          style={{
+            display: this.state.status === STATUS.INITIAL ? "inline" : "none"
+          }}
+          href={`https://github.com/login/oauth/authorize?client_id=${CLIENT_ID}&scope=user&redirect_uri=${REDIRECT_URI}`}
+        >
+          Login
+        </a>
+        <Loading
+          status={this.state.status}
+          callback={() => {
+            if (this.props.status !== STATUS.AUTHENTICATED) {
+              this.setState({
+                status: STATUS.AUTHENTICATED
+              });
+            }
+          }}
+        />
       </ApolloProvider>
     );
   }

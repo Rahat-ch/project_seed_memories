@@ -19,3 +19,63 @@ h1 {
 }
 
 /* this style sheet is connected */
+
+.splashLeft{
+  background-color: #E6F1C9;;
+  height:100vh;
+  color: #470843;
+
+}
+.splashRight{
+  background-color: white;
+  height:100vh;
+  text-align: center;
+}
+
+#loginBtn,#githBtn{
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 45px;
+  font-family: Gilroy-Bold;
+  font-size:18px;
+}
+
+#loginBtn{
+  border: 1px solid #7FAE1E;
+  color: #7FAE1E;
+}
+
+#githBtn{
+  border: 1px solid #7FAE1E;
+  color:white;
+  background-color: #7FAE1E;
+}
+
+#buttons{
+  position:relative;
+  top: 300px;
+}
+
+#logo{
+  position:relative;
+  width: 75%;
+  top:-200px;
+}
+
+#slogan{
+  position:relative;
+  top: -180px;
+}
+
+#callToAction{
+  position:relative;
+  top: 50px;
+  width: 100px;
+}
+
+#cardSpace{
+  position:relative;
+  top:200px;
+}
