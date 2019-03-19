@@ -1,4 +1,4 @@
-<img src="https://github.com/Rahat-ch/project_seed/blob/master/client/src/assets/images/psLogo.png" width="250" height="280" alt="project seed logo">
+<img src="https://github.com/Rahat-ch/project_seed/blob/master/client/src/assets/images/psLogo.png" width="200" height="200" alt="project seed logo">
 
 # Project Seed
 > tagline
